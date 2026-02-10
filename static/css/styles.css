@@ -34,7 +34,7 @@ body {
     background-color: var(--sidebar-background-color);
     font-size: 25px;
     font-weight: 700;
-    padding: 1% 5% ;
+    padding: 0.5em 1em ;
 }
 
 .sidebar .nav-title {
@@ -45,6 +45,16 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
+}
+
+.sidebar .nav-item a{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sidebar .nav-icon{
+    width: 25px;
 }
 
 .sidebar a,
