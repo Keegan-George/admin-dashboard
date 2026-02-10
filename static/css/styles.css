@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../font/RobotoCondensed-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +15,7 @@
 body {
     --sidebar-font-color: #ffffff;
     --sidebar-background-color: #1992D4;
+    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
 
 .container {
@@ -25,5 +34,7 @@ body {
 }
 
 .sidebar a {
-    flex: initial
+    flex: initial;
+    font-size: 25px;
+    font-weight: 700;
 }
