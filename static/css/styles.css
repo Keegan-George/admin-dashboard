@@ -15,6 +15,10 @@
 body {
     --sidebar-font-color: #ffffff;
     --sidebar-background-color: #1992D4;
+    --search-input-background-color: #E2E8F0;
+    --header-buttons-font-color: #ffffff;
+    --header-buttons-background-color: #1992D4;
+
     font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
 
@@ -71,5 +75,64 @@ body {
 header {
     display: flex;
     flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem 3rem 1rem 2rem;
+}
+
+header .header-main-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main-row .icon {
+    width: 25px;
+}
+
+.header-main-row .search {
+    display: flex;
+    align-items: center;
     gap: 1rem;
+}
+
+.header-main-row .search-field {
+    height: 1.75rem;
+    width: 40rem;
+    border-radius: 10px;
+    background-color: var(--search-input-background-color);
+    border: none;
+}
+
+.header-main-row .user-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.user-section .username {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+header .header-sub-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-sub-row .welcome {
+    display: flex;
+
+}
+
+.header-sub-row .header-buttons {
+    display: flex;
+    gap: 2em;
+}
+
+.header-buttons button {
+    color: var(--header-buttons-font-color);
+    background-color: var(--header-buttons-background-color);
+    border-radius: 20px;
+    padding: 0.75rem 2rem;
+    border: none;
+
 }
