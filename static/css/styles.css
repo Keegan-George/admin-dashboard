@@ -170,41 +170,66 @@ main {
     display: flex;
     background-color: var(--main-background-color);
     padding: 1.5rem 1.5rem 2rem 1rem;
+    gap: 1rem;
 }
 
-.projects .projects-title {
+.projects .projects-title,
+.announcements .announcements-title,
+.trending .trending-title {
     font-size: 1.1rem;
     font-weight: 700;
+}
+
+.project-card .project-card-body,
+.announcement-card .announcement-card-body 
+.trending-card .trending-card-body{
+    color: var(--card-body-font-color);
 }
 
 .projects .projects-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem
+    gap: 1.5rem
 }
 
-.projects-grid .card {
+.projects-grid .project-card {
     background-color: var(--card-background-color);
     border-left: 10px solid var(--card-left-border-color);
     padding: 1rem;
     border-radius: 10px;
 }
 
-.card .card-title {
+.project-card .project-card-title {
     font-weight: 700;
 }
 
-.card .card-body {
-    color: var(--card-body-font-color);
-}
-
-.card .card-features {
+.project-card .project-card-features {
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
     margin-top: 1.5rem;
 }
 
-.card .card-icon {
+.project-card .project-card-icon {
     width: 20px;
+}
+
+.announcements .announcements-card-container,
+.trending .trending-card-container {
+    padding: 1rem;
+    background-color: var(--card-background-color);
+}
+
+.announcement-card .announcement-card-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.announcement-card .announcement-card-body {
+    font-size: 0.85rem;
+    color: var(--card-body-font-color);
+}
+
+.trending-card-container .trending-card{
+    
 }
