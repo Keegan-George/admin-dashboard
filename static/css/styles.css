@@ -185,6 +185,7 @@ main {
 .trending .trending-title {
     font-size: 1.1rem;
     font-weight: 700;
+    margin-bottom: 0.75rem;
 }
 
 .project-card .project-card-body,
@@ -218,6 +219,9 @@ main {
 
 .project-card .project-card-icon {
     width: 20px;
+}
+.announcements .announcements-card-container{
+    margin-bottom: 2rem;
 }
 
 .announcements .announcements-card-container,
