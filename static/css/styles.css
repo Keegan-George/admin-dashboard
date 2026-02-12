@@ -18,6 +18,7 @@ body {
     --search-input-background-color: #E2E8F0;
     --header-buttons-font-color: #ffffff;
     --header-buttons-background-color: #1992D4;
+    --header-box-shadow-color: #D1D7DE;
     font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
 
@@ -76,6 +77,7 @@ header {
     flex-direction: column;
     gap: 2rem;
     padding: 1.5rem 3rem 1rem 2rem;
+    box-shadow: 0 5px 5px var(--header-box-shadow-color) ;
 }
 
 header .header-main-row {
@@ -156,5 +158,6 @@ header .header-sub-row {
     background-color: var(--header-buttons-background-color);
     border-radius: 20px;
     padding: 0.5rem 2rem;
+
     border: none;
 }
