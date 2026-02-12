@@ -18,7 +18,8 @@ body {
     --search-input-background-color: #E2E8F0;
     --header-buttons-font-color: #ffffff;
     --header-buttons-background-color: #1992D4;
-    --header-box-shadow-color: #D1D7DE;
+    --header-box-shadow-color: #D0D6DD;
+    --main-background-color: #E2E8F0;
     font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
 
@@ -77,7 +78,8 @@ header {
     flex-direction: column;
     gap: 2rem;
     padding: 1.5rem 3rem 1rem 2rem;
-    box-shadow: 0 5px 5px var(--header-box-shadow-color) ;
+    box-shadow: 0 5px 5px var(--header-box-shadow-color);
+    z-index: 0;
 }
 
 header .header-main-row {
@@ -160,4 +162,8 @@ header .header-sub-row {
     padding: 0.5rem 2rem;
 
     border: none;
+}
+
+main{
+    background-color: var(--main-background-color);
 }
