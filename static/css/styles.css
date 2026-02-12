@@ -195,3 +195,7 @@ main {
 .card .card-body {
     color: var(--card-body-font-color);
 }
+
+.card .card-icon {
+    width: 20px;
+}
