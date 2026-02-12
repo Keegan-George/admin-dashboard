@@ -111,7 +111,7 @@ header .header-main-row {
     gap: 2rem;
 }
 
-.user-section .avatar-small{
+.user-section .avatar-small {
     width: 50px;
     border-radius: 50%;
 }
@@ -133,20 +133,20 @@ header .header-sub-row {
     gap: 0.5rem;
 }
 
-.welcome .avatar-medium{
+.welcome .avatar-medium {
     width: 70px;
     border-radius: 50%;
 }
 
-.welcome .welcome-message{
+.welcome .welcome-message {
     font-weight: 700;
 }
 
-.welcome-message .greeting{
+.welcome-message .greeting {
     font-size: 0.75rem;
 }
 
-.welcome-message .username{
+.welcome-message .username {
     font-size: 1.5rem;
 }
 
@@ -164,6 +164,7 @@ header .header-sub-row {
     border: none;
 }
 
-main{
+main {
+    display: flex;
     background-color: var(--main-background-color);
 }
