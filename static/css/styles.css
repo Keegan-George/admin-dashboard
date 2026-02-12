@@ -18,7 +18,7 @@ body {
     --search-input-background-color: #E2E8F0;
     --header-buttons-font-color: #ffffff;
     --header-buttons-background-color: #1992D4;
-    --header-box-shadow-color: #D0D6DD;
+    --box-shadow-color: #D0D6DD;
     --main-background-color: #E2E8F0;
     --card-background-color: #ffffff;
     --card-left-border-color: #F0B429;
@@ -81,7 +81,7 @@ header {
     flex-direction: column;
     gap: 2rem;
     padding: 1.5rem 3rem 1rem 2rem;
-    box-shadow: 0 5px 5px var(--header-box-shadow-color);
+    box-shadow: 0 5px 5px var(--box-shadow-color);
     z-index: 0;
 }
 
@@ -173,6 +173,13 @@ main {
     gap: 1rem;
 }
 
+.projects .project-card,
+.announcements .announcements-card-container,
+.trending .trending-card-container {
+    box-shadow: 5px 5px 5px var(--box-shadow-color);
+    border-radius: 10px;
+}
+
 .projects .projects-title,
 .announcements .announcements-title,
 .trending .trending-title {
@@ -196,7 +203,6 @@ main {
     background-color: var(--card-background-color);
     border-left: 10px solid var(--card-left-border-color);
     padding: 1rem;
-    border-radius: 10px;
 }
 
 .project-card .project-card-title {
@@ -230,7 +236,7 @@ main {
     color: var(--card-body-font-color);
 }
 
-.trending .trending-card-container{
+.trending .trending-card-container {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
