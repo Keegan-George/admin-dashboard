@@ -168,6 +168,11 @@ header .header-sub-row {
 main {
     display: flex;
     background-color: var(--main-background-color);
+    padding: 1.5rem 1.5rem 2rem 1rem;
+}
+
+main .projects {
+
 }
 
 .projects .projects-title {
