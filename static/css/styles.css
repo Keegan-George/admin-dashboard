@@ -107,6 +107,11 @@ header .header-main-row {
     gap: 2rem;
 }
 
+.user-section .avatar-small{
+    width: 50px;
+    border-radius: 50%;
+}
+
 .user-section .username {
     font-size: 1rem;
     font-weight: 700;
@@ -115,12 +120,18 @@ header .header-main-row {
 header .header-sub-row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-sub-row .welcome {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+}
+
+.welcome .avatar-medium{
+    width: 70px;
+    border-radius: 50%;
 }
 
 .welcome .welcome-message{
@@ -144,6 +155,6 @@ header .header-sub-row {
     color: var(--header-buttons-font-color);
     background-color: var(--header-buttons-background-color);
     border-radius: 20px;
-    padding: 0.75rem 2rem;
+    padding: 0.5rem 2rem;
     border: none;
 }
