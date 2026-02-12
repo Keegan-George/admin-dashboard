@@ -227,13 +227,12 @@ main {
 }
 
 .announcement-card .announcement-card-title {
-    font-size: 0.85rem;
     font-weight: 700;
 }
 
+.announcement-card .announcement-card-title,
 .announcement-card .announcement-card-body {
     font-size: 0.85rem;
-    color: var(--card-body-font-color);
 }
 
 .trending .trending-card-container {
@@ -255,10 +254,8 @@ main {
 
 .trending-card .trending-card-username {
     font-size: 0.85rem;
-
 }
 
 .trending-card .trending-card-tagline {
     font-size: 0.75rem;
-
 }
