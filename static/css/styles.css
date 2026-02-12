@@ -170,7 +170,7 @@ main {
     display: flex;
     background-color: var(--main-background-color);
     padding: 1.5rem 1.5rem 2rem 1rem;
-    gap: 1rem;
+    gap: 1.75rem;
 }
 
 .projects .project-card,
@@ -197,7 +197,7 @@ main {
 .projects .projects-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1.5rem
+    gap: 1rem;
 }
 
 .projects-grid .project-card {
