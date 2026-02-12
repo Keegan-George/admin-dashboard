@@ -20,6 +20,8 @@ body {
     --header-buttons-background-color: #1992D4;
     --header-box-shadow-color: #D0D6DD;
     --main-background-color: #E2E8F0;
+    --card-background-color: #ffffff;
+    --card-body-font-color: #8A8A8A;
     font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
 
@@ -160,11 +162,34 @@ header .header-sub-row {
     background-color: var(--header-buttons-background-color);
     border-radius: 20px;
     padding: 0.5rem 2rem;
-
     border: none;
 }
 
 main {
     display: flex;
     background-color: var(--main-background-color);
+}
+
+.projects .projects-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.projects .projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem
+}
+
+.projects-grid .card {
+    background-color: var(--card-background-color);
+    padding: 1rem;
+}
+
+.card .card-title {
+    font-weight: 700;
+}
+
+.card .card-body {
+    color: var(--card-body-font-color);
 }
