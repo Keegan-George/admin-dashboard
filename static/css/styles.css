@@ -161,9 +161,10 @@ header .header-sub-row {
 .header-buttons button {
     color: var(--header-buttons-font-color);
     background-color: var(--header-buttons-background-color);
+    font-weight: 700;
     border-radius: 20px;
     padding: 0.5rem 2rem;
-    border: none;
+    border: none; 
 }
 
 main {
