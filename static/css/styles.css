@@ -181,8 +181,8 @@ main {
 }
 
 .project-card .project-card-body,
-.announcement-card .announcement-card-body 
-.trending-card .trending-card-body{
+.announcement-card .announcement-card-body,
+.trending-card .trending-card-tagline {
     color: var(--card-body-font-color);
 }
 
@@ -230,6 +230,29 @@ main {
     color: var(--card-body-font-color);
 }
 
-.trending-card-container .trending-card{
-    
+.trending .trending-card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.trending-card-container .trending-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.trending-card .trending-card-icon {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.trending-card .trending-card-username {
+    font-size: 0.85rem;
+
+}
+
+.trending-card .trending-card-tagline {
+    font-size: 0.75rem;
+
 }
