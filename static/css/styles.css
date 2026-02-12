@@ -213,6 +213,12 @@ main .projects{
     padding: 1rem;
 }
 
+.projects-grid .project-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .project-card .project-card-title {
     font-weight: 700;
 }
