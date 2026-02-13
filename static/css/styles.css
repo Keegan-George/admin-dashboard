@@ -18,6 +18,8 @@ body {
     --search-input-background-color: #E2E8F0;
     --header-buttons-font-color: #ffffff;
     --header-buttons-background-color: #1992D4;
+    --header-buttons-hover-color: #157CB3;
+    --header-buttons-click-color: #0F5E85;
     --box-shadow-color: #D0D6DD;
     --main-background-color: #E2E8F0;
     --card-background-color: #ffffff;
@@ -166,6 +168,14 @@ header .header-sub-row {
     border-radius: 20px;
     padding: 0.5rem 2rem;
     border: none;
+}
+
+.header-buttons button:hover {
+    background-color: var(--header-buttons-hover-color);
+}
+
+.header-buttons button:active {
+    background-color: var(--header-buttons-click-color);
 }
 
 main {
