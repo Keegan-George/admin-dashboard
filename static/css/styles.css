@@ -109,6 +109,7 @@ header .header-main-row {
     border-radius: 10px;
     background-color: var(--search-input-background-color);
     border: none;
+    padding: 0.5rem;
 }
 
 .header-main-row .user-section {
