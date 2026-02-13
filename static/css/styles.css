@@ -164,7 +164,7 @@ header .header-sub-row {
     font-weight: 700;
     border-radius: 20px;
     padding: 0.5rem 2rem;
-    border: none; 
+    border: none;
 }
 
 main {
@@ -174,7 +174,7 @@ main {
     gap: 1.75rem;
 }
 
-main .projects{
+main .projects {
     display: flex;
     flex-direction: column;
 }
@@ -207,13 +207,18 @@ main .projects{
     gap: 1rem;
 }
 
-.projects-grid .project-card {
+.projects-grid .project-card,
+.announcements .announcements-card-container,
+.trending .trending-card-container {
     background-color: var(--card-background-color);
-    border-left: 10px solid var(--card-left-border-color);
     padding: 1rem;
 }
 
-.projects-grid .project-card{
+.projects-grid .project-card {
+    border-left: 10px solid var(--card-left-border-color);
+}
+
+.projects-grid .project-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -233,14 +238,20 @@ main .projects{
 .project-card .project-card-icon {
     width: 20px;
 }
-.announcements .announcements-card-container{
+
+.announcements .announcements-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     margin-bottom: 2rem;
 }
 
-.announcements .announcements-card-container,
-.trending .trending-card-container {
-    padding: 1rem;
-    background-color: var(--card-background-color);
+.announcements-card-container .announcement-card {
+    padding: 0.5rem;
+}
+
+.announcements-card-container .announcement-card:not(:last-child) {
+    border-bottom: 2px solid #D2D2D2;
 }
 
 .announcement-card .announcement-card-title {
