@@ -116,7 +116,6 @@ header .header-main-row {
     opacity: 0.5;
 }
 
-
 .header-main-row .search-field {
     height: 1.75rem;
     width: 40rem;
@@ -187,6 +186,7 @@ header .header-sub-row {
 
 .header-buttons button:hover {
     background-color: var(--header-buttons-hover-color);
+    cursor: pointer;
 }
 
 .header-buttons button:active {
