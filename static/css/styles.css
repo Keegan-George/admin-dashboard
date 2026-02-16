@@ -105,19 +105,19 @@ header .header-main-row {
     gap: 1rem;
 }
 
-.header-main-row .search-button {
+.header-main-row button {
     width: 25px;
     border: none;
     background-color: var(--search-button-background-color);
     cursor: pointer;
 }
 
-.header-main-row .search-button:hover {
+.header-main-row button:hover {
     transform: scale(1.1);
     opacity: 0.8;
 }
 
-.header-main-row .search-button:active {
+.header-main-row button:active {
     transform: scale(0.95);
     opacity: 0.5;
 }
