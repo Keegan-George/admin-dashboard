@@ -262,6 +262,11 @@ main aside {
     border-left: 10px solid var(--card-left-border-color);
 }
 
+.projects-grid .project-card:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
 .project-card .project-card-title {
     font-weight: 700;
 }
