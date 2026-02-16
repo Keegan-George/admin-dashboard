@@ -256,13 +256,10 @@ main aside {
 }
 
 .projects-grid .project-card {
-    border-left: 10px solid var(--card-left-border-color);
-}
-
-.projects-grid .project-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-left: 10px solid var(--card-left-border-color);
 }
 
 .project-card .project-card-title {
