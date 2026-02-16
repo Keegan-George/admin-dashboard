@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 
-body {
+:root {
     --sidebar-font-color: #ffffff;
     --sidebar-background-color: #1992D4;
     --search-input-background-color: #E2E8F0;
@@ -27,6 +27,9 @@ body {
     --card-left-border-color: #F0B429;
     --card-body-font-color: #8A8A8A;
     --announcement-card-bottom-border-color: #D2D2D2;
+}
+
+body {
     font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
 
@@ -209,7 +212,7 @@ main .projects {
     flex-direction: column;
 }
 
-main aside{
+main aside {
     flex: 1
 }
 
